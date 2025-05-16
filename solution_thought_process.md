@@ -1,9 +1,3 @@
-# [LeetCode Title] – [Leetcode #]
-
-> Problem description auto-filled by LeetSync (optional)
-
----
-
 ## Thought Process
 
 - What was my initial understanding?
