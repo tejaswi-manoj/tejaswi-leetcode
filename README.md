@@ -1,4 +1,5 @@
-# tejaswi-leetcode
+# My LeetCode Solutions & Lessons Repository
+
 
 I love LeetCode. Probably because I don't do it for interviews (thankfully not a *cooked* CS major), but for the genuine satisfaction of working through logical challenges.
 
