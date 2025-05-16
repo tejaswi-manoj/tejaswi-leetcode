@@ -39,3 +39,7 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
+
+## My Thought Process & Solution
+
+This is for the purpose of my own documentation and long-term understanding of the questions/methods used.
