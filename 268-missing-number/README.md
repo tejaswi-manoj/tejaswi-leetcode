@@ -67,3 +67,68 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
+
+## Thought Process
+
+- What was my initial understanding?
+- What approach did I first consider and why?
+- What confused me at first?
+
+---
+
+## Approaches
+
+---
+
+### Approach 1: Brute Force
+
+#### Data Structures Used
+Array
+
+#### Algorithm
+I started out with the brute force approach initially - create an array of integers from 0 to n, loop through the ```nums``` array to check if any value is missing, then return the value that is missing.
+
+#### Complexity Analysis
+- Time Complexity: O(n^2)
+- Space Complexity: O(n)
+
+#### Code
+```python
+class Solution(object):
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        arr = []
+        for i in range(len(nums)+1):
+            arr.append(i)
+        # gives us an array of all the integers from 0 to n e.g. arr = [0,1,2,3]
+        
+        for j, val in enumerate(arr):
+            if val not in nums:
+                return(val)
+```
+---
+
+### Approach 2: Summing up
+
+#### Algorithm
+Another method could just be to find the difference between the ```target_sum``` and the ```actual_sum```. 
+
+#### Complexity Analysis
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+#### Diagrams or Notes
+![Approach 2 Notes](./notes/notes.png)
+
+#### Code
+```python
+```
+
+---
+## Final Remarks
+
+- What did I learn from this problem?
+- Would I approach it differently now?
