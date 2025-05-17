@@ -26,6 +26,9 @@
 #### Diagrams or Notes
 ![Approach 1 Notes](./notes/approach1.jpg)
 
+#### Code
+```python
+```
 ---
 
 ### Approach 2: [e.g., Two-Pointer Technique]
@@ -42,6 +45,10 @@
 
 #### Diagrams or Notes
 ![Approach 2 Notes](./notes/approach2.jpg)
+
+#### Code
+```python
+```
 
 ---
 
@@ -60,6 +67,10 @@
 #### Diagrams or Notes
 ![Approach 3 Notes](./notes/approach3.jpg)
 
+#### Code
+```python
+```
+
 ---
 
 ## Edge Cases Considered
@@ -75,3 +86,6 @@
 
 - What did I learn from this problem?
 - Would I approach it differently now?
+
+
+

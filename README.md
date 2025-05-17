@@ -5,4 +5,4 @@ I love LeetCode. Probably because I don't do it for interviews (thankfully not a
 
 That said, I have struggled with consistency and long-term retention. Early on, I would spend a lot of time understanding the algorithm behind a problem before writing any code. But when I revisited the same question a week later, I would often draw a complete blank.
 
-This repository is my attempt to fix that. Alongside my solutions, I document my thought process, lessons learned, and improvements made.
+This repository is my attempt to fix that. Alongside my solutions, I aim to document my thought process, lessons learned, and improvements made.
