@@ -51,7 +51,7 @@
 Initially, I thought of the brute force approach (explained below). *Why?* Well, it was just easy.
 
 - What confused me at first?
-*What in the world is O(n^2)?* I was clueless about Big-O notation was when I started out. But after scraping through websites like [GeeksForGeeks](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/) and geeking out on [NeetCode](https://www.youtube.com/watch?v=BgLTDT03QtU&t=1073s) videos, I enjoyed the deep dive into the topic and tried to implement it here. 
+*What in the world is O(n^2)?* I was clueless about Big-O notation was when I started out. But after scraping through websites like [GeeksForGeeks](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/) and geeking out on [NeetCode](https://www.youtube.com/watch?v=BgLTDT03QtU) videos, I enjoyed the deep dive into the topic and tried to implement it here. 
 
 ---
 
