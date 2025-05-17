@@ -5,9 +5,11 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        prevMap = {} # mapping value to index of value
-        for i, n in enumerate(nums):
-            diff = target - n
-            if diff in prevMap:
-                return [prevMap[diff], i]
-            prevMap[n] = i
+        hashmap = {}
+        for i in range(len(nums)):
+            if target - nums[i] in hashmap:
+                return [i, hashmap[target - nums[i]]]
+            hashmap[nums[i]] = i
+        return[]
+
+
