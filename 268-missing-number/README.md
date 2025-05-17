@@ -121,14 +121,27 @@ Another method could just be to find the difference between the ```target_sum```
 - Space Complexity: O(1)
 
 #### Diagrams or Notes
-![Approach 2 Notes](./notes/notes.png)
+![Approach 2 Notes](./notes.png)
 
 #### Code
 ```python
+class Solution(object):
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        n = len(nums)
+        target_sum = n*(n+1)/2
+        actual_sum = sum(nums)
+        return(target_sum-actual_sum)
+            
 ```
 
 ---
 ## Final Remarks
 
 - What did I learn from this problem?
+Simplicity is key. Keep asking: could this be simpler?
 - Would I approach it differently now?
+Yes! 
