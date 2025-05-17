@@ -72,7 +72,7 @@ I started with the easiest approach: Loop through the rest of the array for each
 - Space Complexity: O(1)
 
 #### Diagrams or Notes
-![Approach 1 Notes](./notes/approach1.jpg)
+![Approach 1 Notes](./notes/approach1.png)
 
 #### Code
 ```python
@@ -106,7 +106,7 @@ All it does is, instead of asking the question to the index (weird phrasing but 
 - Space Complexity: O(n)
 
 #### Diagrams or Notes
-![Approach 2 Notes](./notes/approach2.jpg)
+![Approach 2 Notes](./notes/approach2.png)
 
 #### Code
 ```python
