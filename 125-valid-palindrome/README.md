@@ -35,3 +35,99 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 	<li><code>1 &lt;= s.length &lt;= 2 * 10<sup>5</sup></code></li>
 	<li><code>s</code> consists only of printable ASCII characters.</li>
 </ul>
+
+## Approaches
+---
+
+### Approach 1: Brute Force
+This one was pretty simple to solve. I didn't think too much about it and directly worked on 
+
+#### Algorithm
+Remove all non-alphanumeric characters, change the entire string to contain only lowercase letters, reverse it, and compare with the original string.
+
+#### Complexity Analysis
+- Time Complexity: O(?)
+- Space Complexity: O(?)
+
+#### Diagrams or Notes
+![Approach 1 Notes](./notes/approach1.jpg)
+
+#### Code
+```python
+class Solution(object):
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        only_al_num = ""
+        for char in s:
+            if char.isalnum():
+                only_al_num+=char
+        lower_case = only_al_num.lower()
+        if lower_case == lower_case[::-1]:
+            return True
+        else:
+            return False
+```
+---
+
+### Approach 2: [e.g., Two-Pointer Technique]
+
+#### Data Structures Used
+- [...]
+
+#### Algorithm
+- [...]
+
+#### Complexity Analysis
+- Time Complexity: O(?)
+- Space Complexity: O(?)
+
+#### Diagrams or Notes
+![Approach 2 Notes](./notes/approach2.jpg)
+
+#### Code
+```python
+```
+
+---
+
+### Approach 3: [e.g., Optimized Hash Map]
+
+#### Data Structures Used
+- [...]
+
+#### Algorithm
+- [...]
+
+#### Complexity Analysis
+- Time Complexity: O(?)
+- Space Complexity: O(?)
+
+#### Diagrams or Notes
+![Approach 3 Notes](./notes/approach3.jpg)
+
+#### Code
+```python
+```
+
+---
+
+## Edge Cases Considered
+- [x] Empty input  
+- [x] Single element  
+- [x] Large input size  
+- [x] Negative numbers  
+- [x] Duplicates  
+
+---
+
+## Final Remarks
+
+- What did I learn from this problem?
+- Would I approach it differently now?
+
+
+
+
