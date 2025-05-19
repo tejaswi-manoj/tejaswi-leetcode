@@ -8,7 +8,6 @@ class Solution(object):
         for char in s:
             if char.isalnum():
                 only_al_num+=char
-        print(only_al_num)
         lower_case = only_al_num.lower()
         if lower_case == lower_case[::-1]:
             return True
