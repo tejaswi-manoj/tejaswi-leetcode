@@ -40,17 +40,16 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 ---
 
 ### Approach 1: Brute Force
-This one was pretty simple to solve. I didn't think too much about it and directly worked on 
 
 #### Algorithm
-Remove all non-alphanumeric characters, change the entire string to contain only lowercase letters, reverse it, and compare with the original string.
+Initially, I just focused on solving the problem in the most straightforward way possible: remove all non-alphanumeric characters, change the entire string to contain only lowercase letters, reverse it, and compare with the original string. 
 
 #### Complexity Analysis
+
+For the first loop, ```python for char in s: if char.isalnum(): only_al_num+=char```, string concatenation creates a new string every time since strings are immutable in Python. 
+
 - Time Complexity: O(?)
 - Space Complexity: O(?)
-
-#### Diagrams or Notes
-![Approach 1 Notes](./notes/approach1.jpg)
 
 #### Code
 ```python
