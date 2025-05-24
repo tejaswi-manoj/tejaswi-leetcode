@@ -46,10 +46,10 @@ Initially, I just focused on solving the problem in the most straightforward way
 
 #### Complexity Analysis
 
-For the first loop, ```python for char in s: if char.isalnum(): only_al_num+=char```, string concatenation creates a new string every time since strings are immutable in Python. 
+For the first loop, ```python for char in s: if char.isalnum(): only_al_num+=char```, string concatenation creates a new string every time since strings are immutable in Python. So, if a string s has n characters, then ```python only_al_num+=char``` creates a new string every time the loop is run. 1 character copy for the first append, 2 character copies for the second append, and so on sums up to O(n<sup>2<sup>). For reversing the string and checking each character, this compares each character one by one from start to end, thus the time complexity is O(n).
 
-- Time Complexity: O(?)
-- Space Complexity: O(?)
+- Time Complexity: O(n<sup>2<sup>)
+- Space Complexity: O(n)
 
 #### Code
 ```python
