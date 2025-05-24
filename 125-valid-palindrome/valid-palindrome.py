@@ -4,12 +4,15 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        only_al_num = ""
-        for char in s:
-            if char.isalnum():
-                only_al_num+=char
-        lower_case = only_al_num.lower()
-        if lower_case == lower_case[::-1]:
-            return True
-        else:
-            return False
+
+        s = ''.join(c.lower() for c in s if c.isalnum())
+
+        left = 0
+        right = len(s) - 1
+        while left < right:
+            if s[left] != s[right]:
+                return False
+            left += 1
+            right -= 1
+
+        return True
