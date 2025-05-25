@@ -51,7 +51,7 @@ Initially, I thought of classifying the different "types" of ways of climbing up
 Array
 
 #### Algorithm
-This question was my introduction to the concept of ![dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/). With the help of ![NeetCode's detailed solution](https://www.youtube.com/watch?v=Y0lT9Fck7qI), I was able to use the concept of memoization to solve this quickly and efficiently. 
+This question was my introduction to the concept of [dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/). With the help of [NeetCode's detailed solution](https://www.youtube.com/watch?v=Y0lT9Fck7qI), I was able to use the concept of memoization to solve this quickly and efficiently. 
 
 At every given step, we have the choice of making either 1 step or 2 steps. At each given step, we also have a different number of ways to reach the result (more detailed explanation in the image). But we can quickly notice that there are several sub-problems that are being repeated - this means we can store solutions to subproblems so that each one is only solved once [the core idea of DP - caching the result or "memoization"]. 
 
