@@ -30,3 +30,66 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 45</code></li>
 </ul>
+
+
+## Thought Process
+
+- What approach did I first consider and why?
+Initially, I thought of classifying the different "types" of ways of climbing up the stairs - and then adding the number of ways existing for each type. However, this quickly turned out to be inefficient. My next approach was to draw out an image for clarity.
+
+![Approach](./notes/approach.png)
+
+---
+
+## Approaches
+
+---
+
+### Approach 1: Dynamic Programming
+
+#### Data Structures Used
+Array
+
+#### Algorithm
+This question was my introduction to the concept of ![dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/). With the help of ![NeetCode's detailed solution](https://www.youtube.com/watch?v=Y0lT9Fck7qI), I was able to use the concept of memoization to solve this quickly and efficiently. 
+
+At every given step, we have the choice of making either 1 step or 2 steps. At each given step, we also have a different number of ways to reach the result (more detailed explanation in the image). But we can quickly notice that there are several sub-problems that are being repeated - this means we can store solutions to subproblems so that each one is only solved once [the core idea of DP - caching the result or "memoization"]. 
+
+We can also observe that the result of starting at 0 depends on the subproblem of 1, the subproblem of 1 depends on the subproblem of 2, and so on. So, we can start at the bottom and work our way up [Bottom Up DP Approach]!
+
+#### Complexity Analysis
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+#### Diagrams or Notes
+![Approach 1 Notes](./notes/approach1.png)
+
+#### Code
+```python
+class Solution(object):
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        one = 1
+        two = 1
+        
+        for i in range(n-1):
+
+            one = one + two
+            two = one - two
+
+        return one
+        
+```
+---
+## Final Remarks
+
+- What did I learn from this problem?
+Dynamic Programming! 
+- Would I approach it differently now?
+Yes, especially the way I do LeetCode - I think the key is to learn each algorithm really well, before moving on to the next type of problem.
+
+
+
