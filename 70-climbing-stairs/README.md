@@ -37,7 +37,7 @@
 - What approach did I first consider and why?
 Initially, I thought of classifying the different "types" of ways of climbing up the stairs - and then adding the number of ways existing for each type. However, this quickly turned out to be inefficient. My next approach was to draw out an image for clarity.
 
-![Approach](./notes/approach.png)
+![Approach](./notes/approach1.png)
 
 ---
 
@@ -62,7 +62,7 @@ We can also observe that the result of starting at 0 depends on the subproblem o
 - Space Complexity: O(1)
 
 #### Diagrams or Notes
-![Approach 1 Notes](./notes/approach1.png)
+![Approach 1 Notes](./notes/approach.png)
 
 #### Code
 ```python
