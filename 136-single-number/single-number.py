@@ -4,12 +4,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
-        hash = {}
+        # count each element
+        count = Counter(nums) 
 
-        for i in range(len(nums)):
-            hash[nums[i]] = 1 + hash.get(nums[i], 0)
-
-        for c in hash:
-            if hash[c] == 1:
-                return c
+        for n, c in count.items():
+            if c==1:
+                return n
