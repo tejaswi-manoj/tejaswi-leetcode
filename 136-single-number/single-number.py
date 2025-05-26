@@ -4,9 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        # count each element
-        count = Counter(nums) 
+        res = 0
+        for n in nums:
+            res = res ^ n
 
-        for n, c in count.items():
-            if c==1:
-                return n
+        return res
