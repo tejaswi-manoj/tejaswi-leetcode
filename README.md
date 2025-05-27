@@ -50,15 +50,22 @@ Look at the solution for the question and understand how it works **deeply**.
 
 3. **Repeat this for a few problems until you understand that pattern.**
 
-Do the same for several questions until you are confident enough to tackle a similar problem on your own.
+Do the same for several questions until you are confident enough to tackle a similar problem on your own. 
 
 4. **Solve some problems on your own and implement each algorithm several times.**
 
-Once you are confident, try solving some problems on your own. If you feel stuck, come back to the solution later and try it. If you still feel unsure, look at the solution, come back to it the next day, and solve it again.
-
+Once you are confident, try solving some problems on your own. If you feel stuck, come back to the solution later and try it. If you still feel unsure, look at the solution, come back to it the next day, and solve it again. Don't sort the questions by order of Difficulty - sort them by order of Acceptance instead. This is because some Medium questions often tend to be easier than the Easy ones.
 
 5. **Repeat Steps 1 to 4 for each pattern.**
 
+Once you are able to recognize the problem well, go to the next pattern. Follow this "priority pyramid" to decide how much time to spend on each pattern.
+
+![A priority pyramid for deciding how much time to spend on each pattern](priorityPyramid.png)
+
+
+6. **Randomize when you're solid with all the important DSAs.**
+
+Once you are confident with all the essential DSAs, you can randomly choose a mix of easy, medium, and hard questions and focus on recognizing the pattern and implementing the algorithms well.
 
 
 ## General Tips & Motivation
