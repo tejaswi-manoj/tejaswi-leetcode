@@ -7,6 +7,8 @@ That said, I have struggled with consistency and long-term retention. Early on, 
 
 This repository (especially making it Public!) is my attempt to fix that. Alongside my solutions, I aim to document my thought process, lessons learned, and improvements made.
 
+---
+
 ## How I practice LeetCode problems
 
 I don’t think there is a single “right way” to practice LeetCode, but this approach reflects what I have learned from YouTube videos and Reddit posts. I am using this space not just to organize my own thoughts after utilizing those resources, but also to break things down in a way that might help others who are trying to crack LeetCode themselves.
@@ -23,8 +25,6 @@ I don’t think there is a single “right way” to practice LeetCode, but this
 
 5. ["I'm an ex-Google interviewer. You're doing LeetCode wrong." by Anthony D. Mays](https://www.youtube.com/watch?v=Cq7eND5KSPk)
 
-
----
 
 ## Lessons I learned - A Step-by-Step Breakdown
 
@@ -83,7 +83,7 @@ Instead, direct that time and energy on improving yourself and levelling up. Alw
 
 NeetCode explains this beautifully in his video.
 
-3. **The "Why" is really important. Always ask "Why?".**
+3. **The "Why" is really important.**
 
 LeetCode is not just about memorizing patterns and applying them. Learn how to be curious and ask more questions. Learn about Big O Complexity. Be comfortable with the uncertainty and the confusion. Learn to be patient and work through problems instead of running away every time you hit a roadblock or opening Instagram when you find a slightly difficult problem.
 
