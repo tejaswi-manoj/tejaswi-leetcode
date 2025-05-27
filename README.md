@@ -7,4 +7,3 @@ That said, I have struggled with consistency and long-term retention. Early on, 
 
 This repository is my attempt to fix that. Alongside my solutions, I aim to document my thought process, lessons learned, and improvements made.
 
-Hello.
