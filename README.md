@@ -9,19 +9,19 @@ This repository (especially making it Public!) is my attempt to fix that. Alongs
 
 ## How I practice LeetCode problems
 
-I don’t think there is a single “right way” to practice LeetCode, but this approach reflects what I have learned from YouTube videos and Reddit posts. I am using this space not just to organize my own thoughts after watching those resources, but also to break things down in a way that might help others who are trying to crack LeetCode themselves.
+I don’t think there is a single “right way” to practice LeetCode, but this approach reflects what I have learned from YouTube videos and Reddit posts. I am using this space not just to organize my own thoughts after utilizing those resources, but also to break things down in a way that might help others who are trying to crack LeetCode themselves.
 
 ## Videos I watched [to figure out the "right way"]
 
-1. [How to Use LeetCode Effectively by PIRATE KING](https://www.youtube.com/watch?v=IB_F10twtvY)
+1. ["How to Use LeetCode Effectively" by PIRATE KING](https://www.youtube.com/watch?v=IB_F10twtvY)
 
-2. [The unfair way I got good at Leetcode](https://www.youtube.com/watch?v=GPIuPRqDGG8&t=76s)
+2. ["The unfair way I got good at Leetcode" by Dave Burji](https://www.youtube.com/watch?v=GPIuPRqDGG8&t=76s)
 
-3. [How I would learn Leetcode if I could start over](https://www.youtube.com/watch?v=aHZW7TuY_yo&t=747s)
+3. ["How I would learn Leetcode if I could start over" by NeetCodeIO](https://www.youtube.com/watch?v=aHZW7TuY_yo&t=747s)
 
-4. [3 Months of Learning Leetcode](https://www.youtube.com/watch?v=wufc6w8fqvY)
+4. ["3 Months of Learning Leetcode" by Garrett Codes](https://www.youtube.com/watch?v=wufc6w8fqvY)
 
-5. [I'm an ex-Google interviewer. You're doing LeetCode wrong.](https://www.youtube.com/watch?v=Cq7eND5KSPk)
+5. ["I'm an ex-Google interviewer. You're doing LeetCode wrong." by Anthony D. Mays](https://www.youtube.com/watch?v=Cq7eND5KSPk)
 
 
 ---
@@ -62,6 +62,7 @@ Once you are able to recognize the problem well, go to the next pattern. Follow 
 
 ![A priority pyramid for deciding how much time to spend on each pattern](priorityPyramid.png)
 
+Start at the bottom of the pyramid and work your way up. Spend at least 50% of your time understanding the bottom-most row.
 
 6. **Randomize when you're solid with all the important DSAs.**
 
@@ -69,3 +70,23 @@ Once you are confident with all the essential DSAs, you can randomly choose a mi
 
 
 ## General Tips & Motivation
+
+This is more like a personal note to myself, but it's out there for anyone who needs this.
+
+1. **Stop. The. Comparison. It's stupid.**
+
+Seriously, get a hold of yourself. There is nothing more illogical than comparing yourself with other people. Some people start earlier than you do, others start later. Some have different strengths and weaknesses. Some had the advantages of some resources and experiences that you probably didn't have access to. 
+
+Instead, direct that time and energy on improving yourself and levelling up. Always ask yourself: what can I do to improve the way I am learning?
+
+2. **Repetition and Practice is necessary to learn anything.**
+
+NeetCode explains this beautifully in his video.
+
+3. **The "Why" is really important. Always ask "Why?".**
+
+LeetCode is not just about memorizing patterns and applying them. Learn how to be curious and ask more questions. Learn about Big O Complexity. Be comfortable with the uncertainty and the confusion. Learn to be patient and work through problems instead of running away every time you hit a roadblock or opening Instagram when you find a slightly difficult problem.
+
+4. **Consistency is key. Perfection is secondary.**
+
+Don't spend too much time trying to figure out "the perfect way" to practice LeetCode. Instead, focus on getting into the habit of LeetCoding regularly and consistently. Imperfect consistency triumphs sporadic perfection every single time. You'll figure it out anyway.
