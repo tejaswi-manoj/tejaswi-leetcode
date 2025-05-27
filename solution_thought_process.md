@@ -73,15 +73,6 @@
 
 ---
 
-## Edge Cases Considered
-- [x] Empty input  
-- [x] Single element  
-- [x] Large input size  
-- [x] Negative numbers  
-- [x] Duplicates  
-
----
-
 ## Final Remarks
 
 - What did I learn from this problem?
